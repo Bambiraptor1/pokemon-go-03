@@ -23,4 +23,3 @@ def create_app():
   app.register_blueprint(pokemon_bp, url_prefix='/pokemons')
 
   return app
-
