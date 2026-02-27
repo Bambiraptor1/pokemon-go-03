@@ -57,4 +57,3 @@ class Pokemon(db.Model):
 
   def __repr__(self):
     return f'<Pokemon: {self.name}>'
-  
